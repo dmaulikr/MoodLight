@@ -22,6 +22,13 @@
 		20BADF9E1954CC2B0074BB45 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20BADF7D1954CC2B0074BB45 /* UIKit.framework */; };
 		20BADFA61954CC2B0074BB45 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20BADFA41954CC2B0074BB45 /* InfoPlist.strings */; };
 		20BADFA81954CC2B0074BB45 /* MoodLightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BADFA71954CC2B0074BB45 /* MoodLightTests.m */; };
+		20BADFB31954CCB30074BB45 /* NTColorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BADFB21954CCB30074BB45 /* NTColorController.m */; };
+		20BADFB61954CFFE0074BB45 /* NTMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BADFB51954CFFE0074BB45 /* NTMenuController.m */; };
+		20BADFBB1954D25E0074BB45 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20BADFBA1954D25E0074BB45 /* CoreBluetooth.framework */; };
+		20BADFBF1954D2CD0074BB45 /* UARTPeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BADFBE1954D2CD0074BB45 /* UARTPeripheral.m */; };
+		20BADFC31954D36B0074BB45 /* CBUUID+StringExtraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BADFC21954D36B0074BB45 /* CBUUID+StringExtraction.m */; };
+		20BADFC61954DB940074BB45 /* NTColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BADFC51954DB940074BB45 /* NTColorView.m */; };
+		20BADFCD19562CEB0074BB45 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BADFCC19562CEB0074BB45 /* UIColor+Hex.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +62,20 @@
 		20BADFA31954CC2B0074BB45 /* MoodLightTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MoodLightTests-Info.plist"; sourceTree = "<group>"; };
 		20BADFA51954CC2B0074BB45 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		20BADFA71954CC2B0074BB45 /* MoodLightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoodLightTests.m; sourceTree = "<group>"; };
+		20BADFB11954CCB30074BB45 /* NTColorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NTColorController.h; path = Classes/NTColorController.h; sourceTree = "<group>"; };
+		20BADFB21954CCB30074BB45 /* NTColorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NTColorController.m; path = Classes/NTColorController.m; sourceTree = "<group>"; };
+		20BADFB41954CFFE0074BB45 /* NTMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NTMenuController.h; path = Classes/NTMenuController.h; sourceTree = "<group>"; };
+		20BADFB51954CFFE0074BB45 /* NTMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NTMenuController.m; path = Classes/NTMenuController.m; sourceTree = "<group>"; };
+		20BADFB81954D1B20074BB45 /* Notifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notifications.h; sourceTree = "<group>"; };
+		20BADFBA1954D25E0074BB45 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		20BADFBD1954D2CD0074BB45 /* UARTPeripheral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UARTPeripheral.h; path = Classes/UARTPeripheral.h; sourceTree = "<group>"; };
+		20BADFBE1954D2CD0074BB45 /* UARTPeripheral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UARTPeripheral.m; path = Classes/UARTPeripheral.m; sourceTree = "<group>"; };
+		20BADFC11954D36B0074BB45 /* CBUUID+StringExtraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CBUUID+StringExtraction.h"; sourceTree = "<group>"; };
+		20BADFC21954D36B0074BB45 /* CBUUID+StringExtraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CBUUID+StringExtraction.m"; sourceTree = "<group>"; };
+		20BADFC41954DB940074BB45 /* NTColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NTColorView.h; path = Classes/NTColorView.h; sourceTree = "<group>"; };
+		20BADFC51954DB940074BB45 /* NTColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NTColorView.m; path = Classes/NTColorView.m; sourceTree = "<group>"; };
+		20BADFCB19562CEB0074BB45 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		20BADFCC19562CEB0074BB45 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20BADFBB1954D25E0074BB45 /* CoreBluetooth.framework in Frameworks */,
 				20BADF7C1954CC2B0074BB45 /* CoreGraphics.framework in Frameworks */,
 				20BADF7E1954CC2B0074BB45 /* UIKit.framework in Frameworks */,
 				20BADF7A1954CC2B0074BB45 /* Foundation.framework in Frameworks */,
@@ -103,6 +125,7 @@
 		20BADF781954CC2B0074BB45 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				20BADFBA1954D25E0074BB45 /* CoreBluetooth.framework */,
 				20BADF791954CC2B0074BB45 /* Foundation.framework */,
 				20BADF7B1954CC2B0074BB45 /* CoreGraphics.framework */,
 				20BADF7D1954CC2B0074BB45 /* UIKit.framework */,
@@ -114,6 +137,10 @@
 		20BADF7F1954CC2B0074BB45 /* MoodLight */ = {
 			isa = PBXGroup;
 			children = (
+				20BADFC01954D3480074BB45 /* Categories */,
+				20BADFBC1954D2B00074BB45 /* UART */,
+				20BADFB91954D22F0074BB45 /* ColorController */,
+				20BADFB71954D1990074BB45 /* Utilities */,
 				20BADF881954CC2B0074BB45 /* NTAppDelegate.h */,
 				20BADF891954CC2B0074BB45 /* NTAppDelegate.m */,
 				20BADF8B1954CC2B0074BB45 /* Main_iPhone.storyboard */,
@@ -122,6 +149,8 @@
 				20BADF921954CC2B0074BB45 /* NTViewController.m */,
 				20BADF941954CC2B0074BB45 /* Images.xcassets */,
 				20BADF801954CC2B0074BB45 /* Supporting Files */,
+				20BADFB41954CFFE0074BB45 /* NTMenuController.h */,
+				20BADFB51954CFFE0074BB45 /* NTMenuController.m */,
 			);
 			path = MoodLight;
 			sourceTree = "<group>";
@@ -153,6 +182,46 @@
 				20BADFA41954CC2B0074BB45 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		20BADFB71954D1990074BB45 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				20BADFB81954D1B20074BB45 /* Notifications.h */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		20BADFB91954D22F0074BB45 /* ColorController */ = {
+			isa = PBXGroup;
+			children = (
+				20BADFB11954CCB30074BB45 /* NTColorController.h */,
+				20BADFB21954CCB30074BB45 /* NTColorController.m */,
+				20BADFC41954DB940074BB45 /* NTColorView.h */,
+				20BADFC51954DB940074BB45 /* NTColorView.m */,
+			);
+			name = ColorController;
+			sourceTree = "<group>";
+		};
+		20BADFBC1954D2B00074BB45 /* UART */ = {
+			isa = PBXGroup;
+			children = (
+				20BADFBD1954D2CD0074BB45 /* UARTPeripheral.h */,
+				20BADFBE1954D2CD0074BB45 /* UARTPeripheral.m */,
+			);
+			name = UART;
+			sourceTree = "<group>";
+		};
+		20BADFC01954D3480074BB45 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				20BADFC11954D36B0074BB45 /* CBUUID+StringExtraction.h */,
+				20BADFC21954D36B0074BB45 /* CBUUID+StringExtraction.m */,
+				20BADFCB19562CEB0074BB45 /* UIColor+Hex.h */,
+				20BADFCC19562CEB0074BB45 /* UIColor+Hex.m */,
+			);
+			name = Categories;
+			path = Classes/Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,9 +323,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20BADFB61954CFFE0074BB45 /* NTMenuController.m in Sources */,
 				20BADF931954CC2B0074BB45 /* NTViewController.m in Sources */,
 				20BADF8A1954CC2B0074BB45 /* NTAppDelegate.m in Sources */,
+				20BADFBF1954D2CD0074BB45 /* UARTPeripheral.m in Sources */,
+				20BADFCD19562CEB0074BB45 /* UIColor+Hex.m in Sources */,
+				20BADFC61954DB940074BB45 /* NTColorView.m in Sources */,
+				20BADFC31954D36B0074BB45 /* CBUUID+StringExtraction.m in Sources */,
 				20BADF861954CC2B0074BB45 /* main.m in Sources */,
+				20BADFB31954CCB30074BB45 /* NTColorController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +469,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MoodLight/MoodLight-Prefix.pch";
 				INFOPLIST_FILE = "MoodLight/MoodLight-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -407,6 +483,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MoodLight/MoodLight-Prefix.pch";
 				INFOPLIST_FILE = "MoodLight/MoodLight-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -471,6 +548,7 @@
 				20BADFAD1954CC2B0074BB45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20BADFAE1954CC2B0074BB45 /* Build configuration list for PBXNativeTarget "MoodLightTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +557,7 @@
 				20BADFB01954CC2B0074BB45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
