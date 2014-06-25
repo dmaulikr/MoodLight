@@ -9,7 +9,6 @@
 #import <UIKit/UIKit.h>
 #import <CoreBluetooth/CoreBluetooth.h>
 #import "UARTPeripheral.h"
-#import "NTColorController.h"
 
 typedef enum
 {
@@ -21,5 +20,5 @@ typedef enum
 @interface NTViewController : UIViewController <CBCentralManagerDelegate, UARTPeripheralDelegate>
 
 @property (nonatomic) ConnectionStatus      connectionStatus;
-@property (weak, nonatomic) IBOutlet NTColorController *colorController;
+
 @end
